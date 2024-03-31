@@ -1,0 +1,56 @@
+.front_book .back{
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-color: black;
+    width: 100%;
+    height: 100%;
+
+
+}
+fieldset{
+    position: relative;
+}
+legend{
+    margin: auto;
+    
+}
+.front_book .back ul{
+    padding: 5%;
+    text-align: justify;
+}
+.front_book .back fieldset{
+    margin:4%;
+ 
+}
+.imglt{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.imglb{
+    position: absolute;
+    bottom:  0;left: 0;
+    transform:rotate(-90deg) 
+ 
+
+
+}
+.imgrb{
+    position: absolute;
+    bottom:  0;right: 0;
+    transform:rotate(-180deg) ;
+
+}
+.imgrt{
+    position: absolute;
+    top:  0;right: 0;
+    transform:rotate(90deg) ;
+
+}
+.front_book .back h4,.front_book .back h5{
+  text-align: center;
+  margin: 4%;
+} 

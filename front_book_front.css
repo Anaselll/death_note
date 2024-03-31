@@ -1,0 +1,30 @@
+.front_book .front{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: small;
+   
+}
+.front_book .front .side{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 5% 95%;
+
+}
+.front_book .front .side .left {
+    writing-mode: vertical-lr;
+    width: 100%;
+    height: 100%;
+}
+.front_book .front .side hr{
+    margin-left: 5px;
+}
+.front_book .front .side .right{
+position: absolute;
+left: 25%;
+top: 20%;
+
+}
